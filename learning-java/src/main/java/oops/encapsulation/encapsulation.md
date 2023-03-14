@@ -1,0 +1,3 @@
+- bundling up detail
+- by getters and setters
+- security and hiding inner workings

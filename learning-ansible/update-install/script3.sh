@@ -1,0 +1,1 @@
+ansible all -m apt -a upgrade=full --become --ask-become-pass
