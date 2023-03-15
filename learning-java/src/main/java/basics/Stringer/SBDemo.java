@@ -1,4 +1,4 @@
-package Stringer;
+package basics.Stringer;
 
 // String is immutable
 // StringBuffer and StringBuilder are mutable

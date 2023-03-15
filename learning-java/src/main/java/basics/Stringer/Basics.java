@@ -1,4 +1,4 @@
-package Stringer;
+package basics.Stringer;
 
 public class Basics {
 
