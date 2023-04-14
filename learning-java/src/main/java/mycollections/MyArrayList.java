@@ -1,9 +1,6 @@
 package mycollections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class MyArrayList {
 
@@ -35,6 +32,10 @@ public class MyArrayList {
         for (int i = 0; i < 10; i++) {
             arrlst.add(i);
         }
+
+        int integer = arrlst.stream().max(Integer::compare).get();
+
+        System.out.println(integer);
 
         arrlst.add(1,11);
 
